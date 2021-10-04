@@ -1,0 +1,71 @@
+{
+  "address": "0x5c59adB3af652bf2C34b2C974c4ad0B6455A9EdF",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "complete",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "completed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xe5edfc1789d682b538d86623680f71506bbf27b6a6d44ef2c692879a75b64fac",
+  "receipt": {
+    "to": null,
+    "from": "0x815C6D42d20a2e7167463a919cA6879853a971D6",
+    "contractAddress": "0x5c59adB3af652bf2C34b2C974c4ad0B6455A9EdF",
+    "transactionIndex": 49,
+    "gasUsed": "89495",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xca064429e2e9a6bf629e6a4498289e9ff3eb3b6c7774f0cfafe0ab3d6357da69",
+    "transactionHash": "0xe5edfc1789d682b538d86623680f71506bbf27b6a6d44ef2c692879a75b64fac",
+    "logs": [],
+    "blockNumber": 9407374,
+    "cumulativeGasUsed": "6866090",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "82a0fba318411b5f4348465622076c04",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.7+commit.b8d736ae\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"complete\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"completed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/ExampleExternalContract.sol\":\"ExampleExternalContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/ExampleExternalContract.sol\":{\"content\":\"pragma solidity >=0.6.0 <0.7.0;\\n\\ncontract ExampleExternalContract {\\n\\n  bool public completed;\\n\\n  function complete() public payable {\\n    completed = true;\\n  }\\n\\n}\\n\",\"keccak256\":\"0x1cc786de5504a25b0277965d3de897f431136b9d08569839fd8d054dad4e8f1d\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060a78061001e6000396000f3fe60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe9146033575b600080fd5b60316059565b005b348015603e57600080fd5b5060456068565b604080519115158252519081900360200190f35b6000805460ff19166001179055565b60005460ff168156fea2646970667358221220126d64eec3d4753d37119c243948ce0126fddddb55dcb5822b8234853e6cf1a764736f6c63430006070033",
+  "deployedBytecode": "0x60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe9146033575b600080fd5b60316059565b005b348015603e57600080fd5b5060456068565b604080519115158252519081900360200190f35b6000805460ff19166001179055565b60005460ff168156fea2646970667358221220126d64eec3d4753d37119c243948ce0126fddddb55dcb5822b8234853e6cf1a764736f6c63430006070033",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/ExampleExternalContract.sol:ExampleExternalContract",
+        "label": "completed",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "31337": {
-    "localhost": {
-      "name": "localhost",
-      "chainId": "31337",
+  "4": {
+    "rinkeby": {
+      "name": "rinkeby",
+      "chainId": "4",
       "contracts": {
         "ExampleExternalContract": {
-          "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+          "address": "0x5c59adB3af652bf2C34b2C974c4ad0B6455A9EdF",
           "abi": [
             {
               "inputs": [],
@@ -30,7 +30,7 @@
           ]
         },
         "Staker": {
-          "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+          "address": "0x13e384C371a5E9A83b388FA03B7193Da370026F4",
           "abi": [
             {
               "inputs": [
