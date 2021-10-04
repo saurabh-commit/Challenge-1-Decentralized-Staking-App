@@ -1,0 +1,31 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ExampleExternalContract",
+  "sourceName": "contracts/ExampleExternalContract.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "complete",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "completed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060a78061001e6000396000f3fe60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe9146033575b600080fd5b60316059565b005b348015603e57600080fd5b5060456068565b604080519115158252519081900360200190f35b6000805460ff19166001179055565b60005460ff168156fea2646970667358221220126d64eec3d4753d37119c243948ce0126fddddb55dcb5822b8234853e6cf1a764736f6c63430006070033",
+  "deployedBytecode": "0x60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe9146033575b600080fd5b60316059565b005b348015603e57600080fd5b5060456068565b604080519115158252519081900360200190f35b6000805460ff19166001179055565b60005460ff168156fea2646970667358221220126d64eec3d4753d37119c243948ce0126fddddb55dcb5822b8234853e6cf1a764736f6c63430006070033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
